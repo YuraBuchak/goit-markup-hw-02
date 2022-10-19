@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* -------------------ЛОГОТИП Хедер */
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.header-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+/*---------------------- лінк ліст */
+.link {
+text-decoration: none;
+}
+.list {
+list-style: none;
+}
+/*---------------------- навігація */
+.navigation-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.navigation-link:hover, 
+.navigation-link:focus
+ {
+    color: #2196F3;
+ }
+
+.item-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.item-mail:hover,
+.item-mail:focus {
+color: black;
+}
+
+.item-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.item-tel:hover,
+.item-tel:focus
+{
+color: #000000;
+}
