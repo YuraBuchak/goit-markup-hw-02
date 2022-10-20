@@ -1,9 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-/* -------------------ЛОГОТИП Хедер */
+/* ------------------------------Хедер */
 .logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -12,7 +12,7 @@ color: #2196F3;
 }
 
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -32,6 +32,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+cursor: pointer;
 color: #212121;
 }
 .navigation-link:hover, 
@@ -45,11 +46,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+cursor: pointer;
+color: #757575;
 }
 .item-mail:hover,
-.item-mail:focus {
-color: black;
+.item-mail:focus{
+color: #2196F3;
 }
 
 .item-tel {
@@ -57,11 +59,124 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+cursor: pointer;
+color: #757575;
+}
+.item-tel:hover,
+.item-tel:focus
+{color: #2196F3;
+}
+
+/*------------------------------ ГЕРОЙ */
+
+.hero {
+ background: #2F303A;
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-btn {
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+background: #2196F3;
+}
+.hero-btn-text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.hero-btn:hover, .hero-btn:focus{
+background-color: blueviolet;
+}
+
+/*------------------------------ ПЕРЕВАГИ */
+.preference-title {
+    color: #dfdbdb;
+}
+.preference-subtitle {
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.preference-text {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
 color: #757575;
 }
 
-.item-tel:hover,
-.item-tel:focus
-{
-color: #000000;
+/* -----------------------------ЗАЙНЯТІСТЬ */
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* ------------------------------КОМАНДА */
+.team {
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height:calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-subtitle {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* _________________________________ФУТЕР */
+
+.footer {
+}
+.logo-link-foter {
+}
+.address {
+}
+.address-list {
+}
+.address-link-item {
+}
+.address-map {
+}
+.address-mail {
+}
+.address-tel {
 }
