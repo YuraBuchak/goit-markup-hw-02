@@ -109,7 +109,7 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 .hero-btn:hover, .hero-btn:focus{
-background-color: blueviolet;
+background-color: rgb(8, 117, 219);
 }
 
 /*------------------------------ ПЕРЕВАГИ */
@@ -163,10 +163,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.team-list {
-}
-.team-list-item {
-}
+
 .team-subtitle {
 font-weight: 500;
 font-size: 16px;
@@ -241,3 +238,7 @@ color: var(--brand-color);
 {
 color: var(--brand-color);
 }
+
+/* =================================== */
+/* =========ПОРТФОЛІО ХТМЛ============ */
+/* =================================== */
