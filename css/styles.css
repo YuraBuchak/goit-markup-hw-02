@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /* ------------------------------Хедер */
+.header {
+background-color: #FFFFFF;
+}
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -12,11 +15,6 @@ color: #2196F3;
 }
 
 .header-logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
 color: #000000;
 }
 /*---------------------- лінк ліст */
@@ -67,6 +65,10 @@ color: #757575;
 {color: #2196F3;
 }
 
+.navigation-link.current {
+    color: #2196F3;
+}
+
 /*------------------------------ ГЕРОЙ */
 
 .hero {
@@ -83,6 +85,7 @@ color: #FFFFFF;
 }
 
 .hero-btn {
+font-family: inherit;
 width: 216px;
 height: 50px;
 left: 692px;
@@ -103,8 +106,17 @@ background-color: blueviolet;
 }
 
 /*------------------------------ ПЕРЕВАГИ */
-.preference-title {
-    color: #dfdbdb;
+.visually-hidden {
+ position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .preference-subtitle {
 font-weight: 700;
@@ -134,6 +146,7 @@ color: #212121;
 
 /* ------------------------------КОМАНДА */
 .team {
+background: #F5F4FA;
 }
 .team-title {
 font-weight: 700;
@@ -165,18 +178,59 @@ color: #757575;
 /* _________________________________ФУТЕР */
 
 .footer {
+background: #2F303A;;
 }
-.logo-link-foter {
+.logo-link-footer {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: #2196F3;
 }
-.address {
+.footer-logo {
+color: #FFFFFF;
 }
-.address-list {
-}
-.address-link-item {
-}
+
 .address-map {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+font-style: normal ;
+color: #FFFFFF;
 }
+
+.address-map,
+.address-tel,
+.address-mail
+{
+text-decoration: none;
+}
+
 .address-mail {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 .address-tel {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-tel:hover,
+.address-tel:focus
+{
+color: #2196F3;
+}
+.address-mail:hover,
+.address-mail:focus
+{
+color: #2196F3;
 }
