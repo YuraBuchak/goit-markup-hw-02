@@ -1,5 +1,11 @@
+:root {
+    --brand-color: #2196F3;
+    --text-color: #757575;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color:#FFFFFF;
 }
 /* ------------------------------Хедер */
 .header {
@@ -11,7 +17,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--brand-color);
 }
 
 .header-logo {
@@ -36,7 +42,7 @@ color: #212121;
 .navigation-link:hover, 
 .navigation-link:focus
  {
-    color: #2196F3;
+color: var(--brand-color);
  }
 
 .item-mail {
@@ -45,11 +51,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
-color: #757575;
+color: var(--text-color);
 }
 .item-mail:hover,
 .item-mail:focus{
-color: #2196F3;
+color: var(--brand-color);
 }
 
 .item-tel {
@@ -58,15 +64,15 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
-color: #757575;
+color: var(--text-color);
 }
 .item-tel:hover,
 .item-tel:focus
-{color: #2196F3;
+{color: var(--brand-color);
 }
 
 .navigation-link.current {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 /*------------------------------ ГЕРОЙ */
@@ -90,7 +96,8 @@ width: 216px;
 height: 50px;
 left: 692px;
 top: 430px;
-background: #2196F3;
+cursor: pointer;
+background: var(--brand-color);
 }
 .hero-btn-text {
 font-family: 'Roboto', sans-serif;
@@ -131,7 +138,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-color);
 }
 
 /* -----------------------------ЗАЙНЯТІСТЬ */
@@ -172,7 +179,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: calc(19 / 16);
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-color);
 }
 
 /* _________________________________ФУТЕР */
@@ -186,7 +193,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: calc(31 / 26);
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--brand-color);
 }
 .footer-logo {
 color: #FFFFFF;
@@ -227,10 +234,10 @@ color: rgba(255, 255, 255, 0.6);
 .address-tel:hover,
 .address-tel:focus
 {
-color: #2196F3;
+color: var(--brand-color);
 }
 .address-mail:hover,
 .address-mail:focus
 {
-color: #2196F3;
+color: var(--brand-color);
 }
