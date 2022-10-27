@@ -13,7 +13,6 @@ background-color: #FFFFFF;
 }
 .logo {
 font-family: 'Raleway', sans-serif;
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -121,7 +120,6 @@ background-color: rgb(8, 117, 219);
   margin: -1px;
 }
 .preference-subtitle {
-font-weight: 700;
 font-size: 14px;
 line-height: calc(16 / 14);
 letter-spacing: 0.03em;
@@ -129,7 +127,6 @@ text-transform: uppercase;
 color: #212121;
 }
 .preference-text {
-font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
@@ -138,7 +135,6 @@ color: var(--text-color);
 
 /* -----------------------------ЗАЙНЯТІСТЬ */
 .work-title {
-font-weight: 700;
 font-size: 36px;
 line-height: calc(42 / 36);
 text-align: center;
@@ -151,7 +147,6 @@ color: #212121;
 background: #F5F4FA;
 }
 .team-title {
-font-weight: 700;
 font-size: 36px;
 line-height:calc(42 / 36);
 text-align: center;
@@ -167,7 +162,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .team-text {
-font-weight: 400;
 font-size: 16px;
 line-height: calc(19 / 16);
 letter-spacing: 0.03em;
@@ -181,7 +175,6 @@ background: #2F303A;;
 }
 .logo-link-footer {
 font-family: 'Raleway', sans-serif;
-font-weight: 700;
 font-size: 26px;
 line-height: calc(31 / 26);
 letter-spacing: 0.03em;
@@ -192,7 +185,6 @@ color: #FFFFFF;
 }
 
 .address-map {
-font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
@@ -209,7 +201,6 @@ text-decoration: none;
 
 .address-mail {
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
@@ -217,7 +208,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 .address-tel {
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
@@ -251,37 +241,6 @@ background: #F5F4FA;
 border-radius: 4px;
 cursor: pointer;
 }
-.first-btn {
-width: 73px;
-height: 38px;
-left: 512px;
-top: 174px;
-background: #F5F4FA;;
-}
-.second-btn {
-width: 125px;
-height: 38px;
-left: 593px;
-top: 174px;
-}
-.third-btn {
-width: 112px;
-height: 38px;
-left: 726px;
-top: 174px;
-}
-.fourth-btn{
-width: 103px;
-height: 38px;
-left: 846px;
-top: 174px;
-}
-.fifth-btn {
-width: 130px;
-height: 38px;
-left: 957px;
-top: 174px;
-}
 .btn:hover,
 .btn:focus
 {color: #FFFFFF;
@@ -289,14 +248,12 @@ background-color: var(--brand-color);}
 
 /* список 2 */
 .p-projects-title {
-font-weight: 700;
 font-size: 18px;
 line-height: calc(36 / 18);
 letter-spacing: 0.06em;
 color: #212121;
 }
 .p-projects-text {
-font-weight: 400;
 font-size: 16px;
 line-height: calc(30/16);
 letter-spacing: 0.03em;
